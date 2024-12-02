@@ -1,0 +1,130 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "alwaysShowNotificationIcon": true,
+    "alwaysShowTabs": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Sakura",
+            "padding": "10"
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "elevate": true,
+                "font": 
+                {
+                    "size": 11
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "opacity": 90,
+                "padding": "10",
+                "useAcrylic": false
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "size": 11
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "opacity": 90,
+                "padding": "10",
+                "useAcrylic": false
+            },
+            {
+                "colorScheme": "Sakura",
+                "font": 
+                {
+                    "size": 11
+                },
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "opacity": 90,
+                "padding": "10",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#111111",
+            "black": "#000000",
+            "blue": "#6964AB",
+            "brightBlack": "#786D69",
+            "brightBlue": "#9892F1",
+            "brightCyan": "#EEEEEE",
+            "brightGreen": "#22E529",
+            "brightPurple": "#E90CDD",
+            "brightRed": "#F41D99",
+            "brightWhite": "#CBB6FF",
+            "brightYellow": "#F59574",
+            "cursorColor": "#FF65FD",
+            "cyan": "#939393",
+            "foreground": "#CCCCCC",
+            "green": "#41AF1A",
+            "name": "Sakura",
+            "purple": "#C71FBF",
+            "red": "#D52370",
+            "selectionBackground": "#C05CBF",
+            "white": "#998EAC",
+            "yellow": "#BC7053"
+        }
+    ],
+    "showTabsInTitlebar": false,
+    "showTerminalTitleInTitlebar": false,
+    "tabWidthMode": "equal",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
